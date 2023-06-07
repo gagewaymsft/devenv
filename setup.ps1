@@ -151,13 +151,9 @@ code --install-extension zhuangtongfa.material-theme
 
 # clone personal repos
 Write-Output "Cloning personal repos..."
-Set-Location C:\dev\personal
 mkdir C:\dev\personal\scripts
-git clone https://github.com/gagewaymsft/ahk.git
-
-Write-Output "Setting up autohotkey..."
-# set up autohotkey
 Set-Location C:\dev\personal\scripts
+git clone https://github.com/gagewaymsft/ahk.git
 
 Write-Output "Copying autohotkey scripts to startup folder..."
 # copy autohotkey scripts to startup folder
