@@ -1,0 +1,1 @@
+wt --% -p "Windows PowerShell" -d C:\dev\mc-services\src\automation\ cmd /k "echo Current unstaged changes in working directory: && git st && pwsh" ; split-pane -d c:\ -p "cmd" cmd /c azurite --silent --location c:\azurite --debug c:\azurite\debug.log; split-pane -d /mnt/c -p "Kali"
